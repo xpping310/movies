@@ -167,7 +167,7 @@ ax1.set_xticks(x)
 
 
 ax2 = ax1.twinx()
-bars2 = ax2.bar(x + width/2, yearly_data['gross'], width, label='average budget', color='#ff7f0e', alpha=0.8)
+bars2 = ax2.bar(x + width/2, yearly_data['gross'], width, label='average box office', color='#ff7f0e', alpha=0.8)
 ax2.set_ylabel("average box office(billion $)", fontsize=12, color='#ff7f0e')
 ax2.tick_params(axis='y', labelcolor='#ff7f0e')
 
