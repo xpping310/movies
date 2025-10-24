@@ -221,7 +221,7 @@ if selected_movie:
     runtime = movie_detail.get('runtime', "N/A")
     company = movie_detail.get('company', "N/A")
 
-    st.write(f"**year**：{year_str} | **genre**：{genre} | **score**：{score}")
-    st.write(f"**director**：{director} | **star**：{star}")
-    st.write(f"**budget**：{budget_str} million$ | **gross**：{gross_str} million$")
-    st.write(f"**runtime**：{runtime} min | **company**：{company}")
+    st.write(f"**year**:{year_str} | **genre**:{genre} | **score**:{score}")
+    st.write(f"**director**:{director} | **star**:{star}")
+    st.write(f"**budget**:{budget_str} million$ | **gross**:{gross_str} million$")
+    st.write(f"**runtime**:{runtime} min | **company**:{company}")
