@@ -118,7 +118,6 @@ with col1:
     ax.set_title("Score Distribution Across Genres", fontsize=14, pad=20)
     ax.grid(axis='y', alpha=0.3)
     st.pyplot(fig)
- 
 
 
 with col2:
@@ -153,7 +152,6 @@ with col2:
     ax.grid(alpha=0.3)
     st.pyplot(fig)
     
-
 
 st.subheader("3. Yearly Budget vs Gross Comparison")
 fig, ax1 = plt.subplots(figsize=(12, 6))
